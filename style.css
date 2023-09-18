@@ -1,0 +1,74 @@
+.pr{
+    width: 900px;
+    height: 500px;
+    border:solid ;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+#starCont{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.t1{
+    position: absolute;
+    margin: 20px;
+    padding: 20px;
+    color: rgb(143, 184, 143);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    background-color: aliceblue;
+    border-radius: 12px;
+}
+#mi{
+    height: 100%;
+
+}
+#maintime{
+    display: none;
+    font-size: 300px;
+    color: rgb(0, 255, 42);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#mes{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    display: none;
+}
+img{
+    width: 100%;
+}
+.text{
+    width: 100%;
+        position: absolute;
+            top: 20px;
+            left: 0;
+    z-index: 101;
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+}
+.f{
+    color: rgb(15, 231, 15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 90px;
+}
+.t {
+    padding: 20px;
+    color: rgb(143, 184, 143);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    background-color: aliceblue;
+    border-radius: 12px;
+}
