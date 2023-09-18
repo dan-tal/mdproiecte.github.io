@@ -18,16 +18,19 @@ function clearAll(type) {
 
         setInterval(function () {
             document.getElementById("mes").style.display = "none";
+            document.getElementById("starCont").style.display = "flex";
+
         }, 10000);
     } else {
         setTime(fulltime);
+        document.getElementById("starCont").style.display = "flex";
+
     }
     time = fulltime;
     clearInterval(tt);
     clearInterval(mt);
     stat = 0;
 
-    document.getElementById("starCont").style.display = "flex";
 }
 function str_pad_left(string, pad, length) {
     return (new Array(length + 1).join(pad) + string).slice(-length);

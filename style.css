@@ -50,7 +50,7 @@ img{
 .text{
     width: 100%;
         position: absolute;
-            top: 20px;
+            top: 10px;
             left: 0;
     z-index: 101;
     display: flex;
@@ -68,7 +68,7 @@ img{
     padding: 20px;
     color: rgb(143, 184, 143);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     background-color: aliceblue;
     border-radius: 12px;
 }
